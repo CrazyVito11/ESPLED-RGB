@@ -1,0 +1,49 @@
+/////////////////////////////////////
+//        Software settings        //
+/////////////////////////////////////
+
+#define DEVICE_NAME             "ESPLED_RGB"
+#define STARTUP_BRIGHTNESS      128
+#define DISABLE_BROWNOUT_SENSOR true
+
+
+/////////////////////////////////////
+//          WiFi settings          //
+/////////////////////////////////////
+
+#define WIFI_SSID     "WiFi network name here"
+#define WIFI_PASSWORD "WiFi network password here"
+#define WIFI_WPA2_ENT false
+#define WIFI_USERNAME ""
+
+
+/////////////////////////////////////
+//      Over The Air settings      //
+//                                 //
+//    - Read readme for setup -    //
+//                                 //
+/////////////////////////////////////
+#define OTA_ENABLED false
+#define OTA_PORT    3232
+
+
+/////////////////////////////////////
+//       LED hardware config       //
+/////////////////////////////////////
+
+#define LED_PIN          13
+#define LED_TYPE         WS2813
+#define NUM_LEDS         32
+#define COLOR_ORDER      GRB
+#define UPDATE_FREQUENCY 120
+
+
+/////////////////////////////////////
+//     Display hardware config     //
+//                                 //
+//    - Read readme for setup -    //
+//                                 //
+/////////////////////////////////////
+
+#define USE_DISPLAY      false
+#define UPDATE_FREQUENCY 30
