@@ -52,6 +52,7 @@ void setup() {
 
   #if USE_DISPLAY
     initializeDisplay();
+    setupUI();
   #endif
 
   WiFi.disconnect(true);
@@ -138,7 +139,8 @@ void loop() {
       previousUpdateTime = millis();
       updateFrame();
     }
-    
+
+    handleInput();
   #endif
 }
 
